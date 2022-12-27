@@ -12,10 +12,11 @@ SEGUNDOS PASSOS
 1) Ir no github (WEB)
 2) Criar um novo repositório (WEB)
 3) o github vai gerar um link do seu repositorio (Ex: https://github.com/antoniotvalenca/ProjetoGit.git) (WEB)
-4) git remote add origin https://github.com/antoniotvalenca/ProjetoGit.git) (TERMINAL DO VSCODE)
+4) git branch -M main
+5) git remote add origin https://github.com/antoniotvalenca/ProjetoGit.git) (TERMINAL DO VSCODE)
     -> vai linkar os dois repositorios: o local e o virtual
     -> obs: origin é meio que o apelido que o pc da pro github 
-5) git push -u origin main (TERMINAL DO VSCODE)
+6) git push -u origin main (TERMINAL DO VSCODE)
     -> vai abrir uma aba para vc logar
 
 PRÓXIMOS PASSOS (DIA-A-DIA DO GIT/GITHUB, NOVOS ARQUIVOS, ALTERAÇOES DE ARQUIVOS EXISTENTES, ETC)
@@ -24,4 +25,5 @@ PRÓXIMOS PASSOS (DIA-A-DIA DO GIT/GITHUB, NOVOS ARQUIVOS, ALTERAÇOES DE ARQUIV
 2) git status
 3) git commit -m "primeira atualização"
     -> agora está commitado no repositório local
+4) git branch -M main
 4) git push origin main
