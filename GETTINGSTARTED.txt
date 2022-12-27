@@ -25,3 +25,5 @@ PRÓXIMOS PASSOS (DIA-A-DIA DO GIT/GITHUB, NOVOS ARQUIVOS, ALTERAÇOES DE ARQUIV
 3) git commit -m "primeira atualização"
     -> agora está commitado no repositório local
 4) git push origin main
+
+testando 123
