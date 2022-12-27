@@ -1,0 +1,27 @@
+PRIMEIROS PASSOS
+
+1) Criar uma nova pasta (PC)
+2) Criar os seus arquivos (PC)
+3) git init (TERMINAL DO VSCODE) -> inicia o repositório naquela pasta
+4) git add . (TERMINAL DO VSCODE) -> coloca em "staging" tudo que tem de novo no repositório (alterações, novos arquivos, etc)
+5) git status (TERMINAL DO VSCODE) -> vai checar o que tem de novo na área de staging
+6) git commit -m "mensagem de explicação do commit" (TERMINAL DO VSCODE) -> vai commitar no repositório do computador todas as novas mudanças
+
+SEGUNDOS PASSOS
+
+1) Ir no github (WEB)
+2) Criar um novo repositório (WEB)
+3) o github vai gerar um link do seu repositorio (Ex: https://github.com/antoniotvalenca/ProjetoGit.git) (WEB)
+4) git remote add origin https://github.com/antoniotvalenca/ProjetoGit.git) (TERMINAL DO VSCODE)
+    -> vai linkar os dois repositorios: o local e o virtual
+    -> obs: origin é meio que o apelido que o pc da pro github 
+5) git push -u origin main (TERMINAL DO VSCODE)
+    -> vai abrir uma aba para vc logar
+
+PRÓXIMOS PASSOS (DIA-A-DIA DO GIT/GITHUB, NOVOS ARQUIVOS, ALTERAÇOES DE ARQUIVOS EXISTENTES, ETC)
+
+1) git add .
+2) git status
+3) git commit -m "primeira atualização"
+    -> agora está commitado no repositório local
+4) git push origin main

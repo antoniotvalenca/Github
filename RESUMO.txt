@@ -1,0 +1,13 @@
+GITHUB e GIT
+
+- GIT é um repositório de projeto (códigos). Ao criá-lo em um diretório, você vai ser capaz de gerir as atualizações (e as possíveis atualizações) do seu projeto, a medida que ele vai evoluindo (isto é, guardar o código e todas as suas versões)
+
+- O GITHUB é uma plataforma na qual salvamos a linha do tempo do nosso projeto ( que vai sendo criada a medida que atualizamos o git )
+
+- Toda vez que atualizamos um código, damos "commit" nele, para que ele entre na frente da linha do tempo
+
+- A linha do tempo seria a "branche master"
+
+- Podemos também criar "branches" alternativas, que são ramificações do nosso código. Elas fogem da linha do tempo principal, isto é, são alternativas de commits que podem ou não entrar na branche principal. Normalmente criamos uma branche quando queremos atualizar o código mas sem diretamente afetar a linha do tempo principal (pois pode não ser uma atualização definitiva, ou que não foi polida o suficiente para entrar na branche principal)
+
+- HEAD: é um nome simbólico para o commit atualmente ativo (que sofreu checkout por último) -- essencialmente, o commit que você está trabalhando no momento. Ou seja, a partir do momento que damos um "git checkout *nomeDaBranch ou master*" estamos apontando o HEAD para ele.
