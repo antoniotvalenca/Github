@@ -33,6 +33,9 @@ _______________________________________________________
 git checkout -> troca branch
 git checkout -b nome-da-branch -> cria branch nova com o nome nome-da-branch
 
+git checkout nome-da-branch -> entra na branch nome-da-branch
+git branches -> ve todas as branches que tem
+
 -> padrão: 
 	ft-nome (features novas)
 	fix-nome (bug fix)
