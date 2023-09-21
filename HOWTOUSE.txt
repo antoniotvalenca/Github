@@ -27,3 +27,13 @@ PRÓXIMOS PASSOS (DIA-A-DIA DO GIT/GITHUB, NOVOS ARQUIVOS, ALTERAÇOES DE ARQUIV
     -> agora está commitado no repositório local
 4) git branch -M main
 4) git push origin main
+
+_______________________________________________________
+
+git checkout -> troca branch
+git checkout -b nome-da-branch -> cria branch nova com o nome nome-da-branch
+
+-> padrão: 
+	ft-nome (features novas)
+	fix-nome (bug fix)
+	ref-nome (refactoring)
